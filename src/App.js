@@ -1,7 +1,7 @@
 
 import './App.css';
 import React, { Component } from 'react'
-import NavBar from './component/NavBar';
+import NavBar from './component/Navbar';
 import News from './component/News';
 
 export default class App extends Component {
@@ -10,7 +10,7 @@ export default class App extends Component {
     return (
       <div>
      <NavBar/>
-     <News/>
+     <News pageSize={5}/>
     
       </div>
     )
